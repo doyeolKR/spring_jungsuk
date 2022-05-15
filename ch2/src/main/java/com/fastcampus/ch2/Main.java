@@ -14,7 +14,7 @@ public class Main {
 		Method main = helloClass.getDeclaredMethod("main");
 		main.setAccessible(true); // private인 main()을 호출가능하게 한다.
 		
-		main.invoke(hello); // hello.main() 호출한 것과 같음.dd
+		main.invoke(hello); // hello.main() 호출한 것과 같음.ddd
 	}
 
 }
